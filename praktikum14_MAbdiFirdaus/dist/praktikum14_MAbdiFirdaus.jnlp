@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="praktikum14_MAbdiFirdaus.jnlp">
+  <information>
+    <title>praktikum14_MAbdiFirdaus</title>
+    <vendor>Praktikan</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="praktikum14_MAbdiFirdaus.jar" size="3864" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="praktikum14_MAbdiFirdaus" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="praktikum14_mabdifirdaus.Praktikum14_MAbdiFirdaus"  name="praktikum14_MAbdiFirdaus" />
+  <update check="always"/>
+</jnlp>
